@@ -1,0 +1,17 @@
+:root {
+  --page-ink: #1a1a1a;
+  --page-dark: #212121;
+  --page-blue: #0057ff;
+  --page-border: #e8e8e8;
+  --page-muted: #858585;
+  --page-surface: #f7f7f7;
+  --container-width: 1197px;
+  --page-gutter: 24px;
+  --desktop-gutter: 114px;
+}
+
+@media (min-width: 1200px) {
+  :root {
+    --page-gutter: var(--desktop-gutter);
+  }
+}
